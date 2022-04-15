@@ -1,18 +1,23 @@
 .particles-container {
-    background: #fbfffe;
-    width: 100%;
-    min-height: 100vh;
+    position: absolute;
     overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
 }
 
 .particle-row {
     display: flex;
-}
+
+    &:nth-child(2) {
+        transform: rotate(45deg);
+    }
+ }
 
 .cluster {
     position: relative;
     width: 100%;
-    height: 100vh;
 }
 
 .cluster span {
@@ -33,51 +38,65 @@
     opacity: 0.8;
 }
 
-.cluster .small:before {
+.cluster .sm:before {
     width: 25px;
     height: 25px;
 }
 
-.cluster .med:before {
+.cluster .sm-md:before {
+    width: 35px;
+    height: 35px;
+}
+
+
+.cluster .md:before {
     width: 50px;
     height: 50px;
 }
 
-.cluster .big::before {
+.cluster .lg::before {
     width: 100px;
     height: 100px;
 }
 
-.cluster span:nth-child(3n+1)::before {
+.cluster .pink::before {
     background: rgba(253, 224, 224, 1);
 }
 
-.cluster span:nth-child(3n+2)::before {
-    background: rgba(249, 243, 243, 1);
-}
-
-.cluster span:nth-child(3n+3)::before {
-    background: rgba(222, 243, 253, 1);
-}
-
-.cluster span:nth-child(3n+4)::before {
+.cluster .purple::before {
     background: rgba(240, 222, 253, 1);
 }
 
+.cluster .blue::before {
+    background: rgba(222, 243, 253, 1);
+}
+
+.cluster .light-pink::before {
+    background: rgba(249, 243, 243, 1);
+}
+
+.cluster .grey::before {
+    background: rgb(233, 233, 233);
+}
+
 .cluster span:nth-child(3n+1) {
-    animation: animate 15s alternate infinite;
+    animation: animate 8s alternate infinite;
 }
 
 .cluster span:nth-child(3n+2) {
-    animation: animate-reverse 20s alternate infinite;
+    animation: animate-reverse 5s alternate infinite;
 }
 
 .cluster span:nth-child(3n+3) {
-    animation: animate 25s alternate infinite;
+    animation: animate 15s alternate infinite;
 }
 
 .cluster span:nth-child(3n+4) {
-    animation: animate-reverse 5s alternate infinite;
+    animation: animate-reverse 18s alternate infinite;
+}
+
+.cluster span:nth-child(3n+5) {
+    animation: animate 4s alternate infinite;
 }
 
 .cluster span:hover::before {
@@ -85,6 +104,7 @@
     opacity: 1;
     // box-shadow: 0px 0px 10px #cecece;
 }
+
 
 @keyframes animate {
     0% {

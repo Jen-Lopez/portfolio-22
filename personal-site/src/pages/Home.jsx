@@ -1,12 +1,13 @@
+import './Home.scss';
+
 import React from 'react'
-import Animation from '../component/ParticleBackground'
+import Header from '../component/Header';
 
 function Home() {
   return (
    <>
-    <div>
-      <Animation/>
-    </div>
+    <Header/>
+    <div>howdy</div>
    </>
   )
 }
