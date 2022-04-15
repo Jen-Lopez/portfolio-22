@@ -5,7 +5,9 @@ export default function NavBar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='brand'>JL</div>
+        <div className='brand'>
+          <a href='/'><span>JL</span></a>
+        </div>
         <ul className='links'>
           <li><a>about</a></li>
           <li><a>work</a></li>
