@@ -1,12 +1,10 @@
-$off-white: #fbfffe;
-$aqua: #2c9f89;
-$dark-grey: #6f6f6f;
+@import '../utilities/colors';
 
 nav {
     background-color: $off-white;
     display: flex;
     height: 80px;
-    margin: 0 2%;
+    padding: 0 2%;
     font-size: 18px;
     letter-spacing: 0.5px;
     opacity: 0.8;
