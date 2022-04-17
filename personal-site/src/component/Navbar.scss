@@ -1,0 +1,97 @@
+@import '../utilities/colors';
+
+nav {
+    // background-color: rgba(255, 153, 36, 0.5);
+    // background-color: $off-white;
+    height: 80px;
+    padding: 0 2%;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+    .brand {
+
+        a {
+            position: relative;
+            padding: 5px;
+            color: $dark-grey;
+            text-decoration: none;
+            border: 2px $dark-grey solid;
+
+            span {
+                position: relative;
+                z-index: 1;
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                background: $off-white;
+                top: 6px;
+                left: -2px;
+                width: calc(100% + 5px);
+                height: calc(100% - 12px);
+                transition: 0.5s ease-in-out;
+                transform: scaleY(1);
+                transition-delay: 0.5s;
+            }
+
+            &:hover:before {
+                transform: scaleY(0);
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 6px;
+                top: -2px;
+                height: calc(100% + 5px);
+                width: calc(100% - 12px);
+                background: $off-white;
+                transition: 0.5s ease-in-out;
+                transform: scaleX(1); 
+            }
+
+            &:hover::after {
+                transform: scaleX(0);
+            }
+
+        }
+    }
+
+    .links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 0 10px;
+        }
+
+        a {
+            position: relative;
+            color: $wallflower;
+            text-decoration: none;
+
+            &:after {
+                content: "";
+                position: absolute;
+                background-color: $turquoise;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -10px;
+                transition: 0.3s;
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                &::after {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}
