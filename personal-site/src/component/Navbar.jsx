@@ -9,9 +9,9 @@ export default function NavBar() {
           <a href='/'><span>JL</span></a>
         </div>
         <ul className='links'>
-          <li><a>about</a></li>
-          <li><a>work</a></li>
-          <li><a>resume</a></li>
+          <li><a href='/about'>about</a></li>
+          <li><a href='/work'>work</a></li>
+          <li><a href='/resume'>resume</a></li>
         </ul>
       </nav>
     </>
