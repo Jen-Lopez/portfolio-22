@@ -1,0 +1,66 @@
+@import '../utilities/colors';
+
+.timeline {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 0.8em;
+    border-left: 0.4em solid $coral;
+    border-top: 0.4em solid $extra-light-grey;
+    border-right: 0.4em solid $extra-light-grey;
+    border-bottom: 0.4em solid $extra-light-grey;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+    .work-exp-header {
+
+        img {
+            display: block;
+            width: 50px;
+            margin-right: 2%;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 0;
+            align-self: center;
+        }
+
+    }
+}
+
+.accordion {
+    .accordion-item {
+        border: none;
+    }
+
+    .accordion-button {
+        &::after {
+            display: none;
+        }
+
+        &:not(.collapsed), &:focus {
+            box-shadow: none;
+            color: black;
+            background-color: $off-white;
+        }
+    }
+
+    .amex {
+        .accordion-button {
+            &:not(.collapsed), &:focus {
+                color: $purple-blue;
+                background-color: $light-blue;
+            }        
+        }
+    }
+
+    .pd {
+        .accordion-button {
+            &:not(.collapsed), &:focus {
+                color: $light-green;
+                background-color: $dark-green;
+            }        
+        }
+    }
+    
+
+}
