@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <div>Work</div>
+    <>
+      <div className='content-start'>Work</div>
+    </>
   )
 }
