@@ -1,6 +1,7 @@
 import './Work.scss';
 import React from 'react'
 import Timeline from '../component/Timeline';
+import Projects from '../component/Projects';
 
 export default function Work() {
   return (
@@ -12,6 +13,7 @@ export default function Work() {
         </div>
         <div className='projects'>
           <h1 className='section-heading'>Projects</h1>
+          <Projects/>
         </div>
       </div>
     </>
