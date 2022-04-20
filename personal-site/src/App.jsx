@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import NavBar from './component/Navbar';
+import Footer from './component/Footer';
 import Work from './pages/Work';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/work' element={<Work/>} exact/>
         </Routes>
       </Router>
+      <Footer/>
     </>
   );
 }

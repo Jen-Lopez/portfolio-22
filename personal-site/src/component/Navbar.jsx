@@ -1,6 +1,6 @@
 import './Navbar.scss';
 import React from 'react'
-import PDF from '../img/resume.pdf'
+import PDF from '../media/resume.pdf'
 
 export default function NavBar() {
   return (

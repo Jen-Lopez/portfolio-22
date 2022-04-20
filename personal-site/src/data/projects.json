@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "name": "foodwithfriends",
+        "thumbnail": "fwf.jpeg",
+        "description": "fwf description",
+        "tech": ["React", "Node", "Express"],
+        "url": "food-with-friends"
+      },
+      {
+        "name": "flixbox",
+        "thumbnail": "fwf.jpeg",
+        "description": "flixbox description",
+        "tech": ["React", "Node", "Express"],
+        "url": "flix-box"
+      },
+      {
+        "name": "UTrend",
+        "thumbnail": "fwf.jpeg",
+        "description": "Utrend description",
+        "tech": ["React", "Node", "Express"],
+        "url": "utrend"
+      }
+    ]
+}
