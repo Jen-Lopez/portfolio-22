@@ -11,7 +11,7 @@ export default function Projects() {
       <Row xs={1} md={2} className="g-4">
         {projects.map((proj, i) => (
           <Col key={i}>
-            <a className='project-url' href={`projects/${proj.url}`}>
+            <a className='project-url' href={`work/${proj.url}`}>
               <Card className='project'>
                 <Card.Img className='project-img' variant="top" src={require(`../media/projects/${proj.thumbnail}`)}/>
                 <Card.Body>

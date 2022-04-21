@@ -1,0 +1,41 @@
+{
+    "fwf": {
+      "name": "foodwithfriends",
+      "lead": "some lead text",
+      "poster": "fwf.jpeg",
+      "roles":"Full Stack Engineer,  UI/UX Design",
+      "team":"team 2",
+      "skills":["react", "express"],
+      "timeframe":"Sep 2021 - Dec 2021",
+      "links":["www.github.com", "www.google.com"],
+      "overview":"overview",
+      "dev":"implementation",
+      "final":"conclusion 1"
+    },
+    "flixbox": {
+      "name": "flixbox",
+      "lead": "some lead text",
+      "poster": "fwf.jpeg",
+      "roles":"Full Stack Engineer, UI/UX Design",
+      "team":"none",
+      "skills":["react", "express"],
+      "timeframe":"Sep 2021 - Dec 2021",
+      "links":["www.github.com", "www.google.com","www.youtube.com"],
+      "overview":"overview",
+      "dev":"implementation",
+      "final":"conclusion 2"
+    },
+    "utrend": {
+      "name": "UTrend",
+      "lead": "some lead text",
+      "poster": "fwf.jpeg",
+      "roles":"Software Engineer,  UI/UX Design",
+      "team":"team 1",
+      "skills":["react", "express"],
+      "timeframe":"Sep 2021 - Dec 2021",
+      "links":[],
+      "overview":"overview",
+      "dev":"implementation",
+      "final":"conclusion 3"
+    }
+  }
