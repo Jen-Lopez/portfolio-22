@@ -1,5 +1,59 @@
 @import '../utilities/colors';
 
 .about {
-    // font-family: 'Inter', sans-serif;
+    margin-bottom: 100px;
+
+    .highlight {
+        color: $purple-blue;
+        font-weight: 500;
+    }
+
+    &-me {
+        font-family: 'Poppins', sans-serif;
+
+        margin: 8% 0;
+
+        h1 {
+            margin-bottom: 5%;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .spare-time {
+            padding-top: 30px;
+
+            h3 {
+                color: $light-grey;
+                font-size: 1em;
+            }
+        }
+
+        .profile {
+            text-align: center;
+            .grey-rounded-border {
+                border-left: 0.4em solid $purple-blue;
+            }
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    &-gallery {
+        h1 {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .profile {
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .info {
+        order: 2;
+    }
 }

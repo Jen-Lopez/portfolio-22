@@ -16,3 +16,12 @@
     letter-spacing: 2px;
     color: black;
 }
+
+.grey-rounded-border {
+    border-radius: 0.8em;
+    border-left: 0.4em solid $med-grey;
+    border-top: 0.4em solid $extra-light-grey;
+    border-right: 0.4em solid $extra-light-grey;
+    border-bottom: 0.4em solid $extra-light-grey;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}

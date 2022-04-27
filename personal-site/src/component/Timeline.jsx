@@ -8,7 +8,7 @@ export default function Timeline() {
 
   return (
     <>
-      <Accordion className='timeline' flush>
+      <Accordion className='timeline grey-rounded-border' flush>
         {experiences.map((exp, i) => {
           return <Accordion.Item eventKey={`${i}`} key={i}>
             <Accordion.Header className={`work-exp-header ${exp.class}`}>

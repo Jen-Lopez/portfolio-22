@@ -30,3 +30,14 @@ header {
         color: $light-grey;
     }
 }
+
+@media (max-width: 576px) {
+    .header-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+}
