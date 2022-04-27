@@ -1,6 +1,6 @@
 import './Footer.scss';
-import GH from '../img/github.svg'
-import LI from '../img/linkedin.svg'
+import GH from '../media/github.svg'
+import LI from '../media/linkedin.svg'
 import React from 'react'
 
 export default function Footer() {

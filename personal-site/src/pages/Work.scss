@@ -1,0 +1,14 @@
+@import '../utilities/colors';
+
+
+.work {
+    margin-bottom: 150px;
+
+    .experience, .projects {
+        margin: 8% 0;
+    
+        .section-heading {
+            margin-bottom: 5%;
+        }
+    }
+}

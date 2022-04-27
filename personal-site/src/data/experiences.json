@@ -1,0 +1,92 @@
+{
+    "experiences": [
+      {
+        "company": "American Express",
+        "positions": [
+          {
+            "title": "Engineer III",
+            "location": "New York, NY",
+            "start": "Feb 2022",
+            "end": "Present",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "achievements": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+            ]
+          },
+          {
+            "title": "Software Engineer Intern",
+            "location": "Remote",
+            "start": "June 2021",
+            "end": "Aug 2021",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "achievements": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+            ]
+          }
+        ],
+        "thumbnail": "amex.png",
+        "class": "amex"
+      },
+      {
+        "company": "PagerDuty",
+        "positions": [
+          {
+            "title": "Software Developer Intern",
+            "location": "Remote",
+            "start": "Jan 2021",
+            "end": "April 2021",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "achievements": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+            ]
+          }
+        ],
+        "thumbnail": "pd.png",
+        "class": "pd"
+      },
+      {
+        "company": "New York University",
+        "positions": [
+          {
+            "title": "Web Design Tutor",
+            "location": "New York, NY",
+            "start": "Oct 2019",
+            "end": "Dec 2021",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "achievements": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+            ]
+          }
+        ],
+        "thumbnail": "nyu.jpg",
+        "class": "nyu"
+      },
+      {
+        "company": "Girls Who Code",
+        "positions": [
+          {
+            "title": "SIP Teaching Assistant",
+            "location": "New York, NY",
+            "start": "July 2018",
+            "end": "Aug 2018",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "achievements": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+            ]
+          }
+        ],
+        "thumbnail": "gwc.png",
+        "class": "gwc"
+      }
+    ]
+}
