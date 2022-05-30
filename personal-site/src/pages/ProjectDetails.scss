@@ -26,13 +26,19 @@
         .skills {
             margin-bottom: 20px;
 
-            .tool {
-                background: rgba(0, 184, 148, 0.05);
-                color: black;
-                border: 1px solid orange;
-                border-radius: 5px;
-                margin-right: 10px;
-                padding: 3px 10px;
+            .skill-container {
+                display: flex;
+                flex-wrap: wrap;
+
+                .tool {
+                    background: rgba(0, 184, 148, 0.05);
+                    color: black;
+                    border: 1px solid orange;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    padding: 3px 10px;
+                    margin-bottom: 5px;
+                }
             }
         }
 
@@ -52,6 +58,9 @@
     &-info {
         margin-top: 2em;
     }
+    &-poster-parent {
+        padding: 0 10%;
+    }
 
     &-poster {
         width: 100%;
@@ -62,8 +71,14 @@
         margin-top: 5%;
         .overview, .development, .end-product {
             font-family: 'Inter', sans-serif;
+            margin: 50px 0;
+
             h3 {
                 letter-spacing: 3px;
+                margin-bottom: 15px;
+            }
+            p {
+                text-align: justify;
             }
         }
     }

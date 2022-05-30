@@ -1,41 +1,45 @@
 {
     "fwf": {
       "name": "foodwithfriends",
-      "lead": "some lead text",
+      "lead": "Find great food nearby with your friends",
       "poster": "fwf.jpeg",
-      "roles":"Full Stack Engineer,  UI/UX Design",
-      "team":"team 2",
-      "skills":["react", "express"],
+      "roles":"Full Stack Engineer, UI/UX Design",
+      "team":"Yoon K., Thomas T., Sri K., Priya C., Tanya S.",
+      "skills":["react", "node.js", "express", "mongoDB"],
       "timeframe":"Sep 2021 - Dec 2021",
-      "links":["www.github.com", "www.google.com"],
-      "overview":"overview",
-      "dev":"implementation",
-      "final":"conclusion 1"
+      "links":["github.com/software-assignments-fall2021/project-setup-foodwithfriends", "foodwithfriends.tech", ""],
+      "overview":["Are you going out to eat with friends anytime soon? These friendly gatherings usually go one of two ways: a restaurant is agreed upon fairly quickly OR you spend 30+ minutes choosing what to eat in the first place - not including the actual restaurant you are going to.",
+      "foodwithfriends is a web application that aims to make decision-making for where to eat ~easy~. Hosts can invite their entourage to a virtual room where each individual can choose a cuisine they prefer (e.g. Italian), vote on it, and go on to choose a restaurant together in a desired location.",
+      "Our goal is to help groups of people choose a dining spot so that more time is spent on being together than deciding on where and what to eat."],
+      "dev":["We developed foodwithfriends using the MERN stack - React on the frontend; MongoDB, Express, and Node.js on the backend. Additionally, to make the UI clean + responsive, we utilized React Bootstrap.",
+      "The core functionality of the app is supported by the following APIs: Google Places, Yelp, and Documenu. Google's Places API allows us to determine the group's current location (or get more info on their desired location) that is then used to find local restaurants. Yelp and Documenu provide us with restaurant data we process to generate a list of restaurant recommendations that matches user criteria + preferences.", 
+      "Finally, we deployed our application on digital ocean via a CI/CD pipeline."]
     },
     "flixbox": {
       "name": "flixbox",
-      "lead": "some lead text",
+      "lead": "Make finding a movie everyone will watch seamless",
       "poster": "fwf.jpeg",
       "roles":"Full Stack Engineer, UI/UX Design",
-      "team":"none",
-      "skills":["react", "express"],
+      "team":"n/a",
+      "skills":["handlebars", "node.js", "express","mongoDB"],
       "timeframe":"Sep 2021 - Dec 2021",
-      "links":["www.github.com", "www.google.com","www.youtube.com"],
-      "overview":"overview",
-      "dev":"implementation",
-      "final":"conclusion 2"
+      "links":["", "flix-box.herokuapp.com"],
+      "overview":["Movie Nights with family and friends can go one of two ways: you settle on a movie fairly quick (which rarely happens) OR you spend what seems like an eternity choosing a movie to satisfy all.",
+      "With flixbox, instead of wasting time deciding on a movie, you can enjoy a movie with family + friends instantly. You can choose to vote on a movie based on a specific genre or on what's popular. In the end, you'll have an opportunity to rank your favorites and hope that everyone else agrees :)"],
+      "dev": ["flixbox on the backend is built with Node.js, Express, and MongoDB. On the frontend, the app is rendered using Handlebars, HTML/CSS, and is supported by Bootstrap for responsive design. Additionally, the app is integrated with TMDB's Movies API to provide users with movie options."]
     },
     "utrend": {
       "name": "UTrend",
-      "lead": "some lead text",
+      "lead": "Realize the potential in your closet",
       "poster": "fwf.jpeg",
-      "roles":"Software Engineer,  UI/UX Design",
-      "team":"team 1",
-      "skills":["react", "express"],
+      "roles":"Software Engineer, UI/UX Design",
+      "team":"Ashley S., Sam G.",
+      "skills":["swift","firebase"],
       "timeframe":"Sep 2021 - Dec 2021",
-      "links":[],
-      "overview":"overview",
-      "dev":"implementation",
-      "final":"conclusion 3"
+      "links":["github.com/Jen-Lopez/UTrend"],
+      "overview":["UTrend is a fashion/beauty application that enables users to generate outfits with their own clothes and share them with others.",
+      "Our goal is for users to realize the potential they have in their closets without the hassle of having to try on a bunch of outfits. We want to inspire our users to create new outfits and have them fall in love with the clothes they own all over again.",
+      "We hope that this app will not only reduce the headache of getting ready in the morning, but also reduce the amount of overbuying that occurs when people are bored with their closet. In this way, our users promote sustainability by using what they already own."],
+      "dev":["We built the app using Swift and created our UIs programmatically (instead of using storyboards) as a means to deepen and fast-track our understanding of iOS development. Now, in order to use the app, user's will need to create an account - which is powered by Google's OAuth. Once logged in, user's can browse outfits in our pinterest-inspired social media feed, save them, or upload their own outfits to share with others. All user profiles, posts, and uploaded images are securely stored in Firebase."]
     }
   }
