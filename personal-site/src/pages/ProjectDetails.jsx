@@ -72,11 +72,6 @@ function ProjectDetails(props) {
                                     return <p key={i}>{para}</p>
                         })}
                     </div>
-
-                    <div className='end-product'>
-                        <h3>Final Product</h3>
-                        {/* <p>{project.final}</p> */}
-                    </div>
                 </div>
 
             </div>
