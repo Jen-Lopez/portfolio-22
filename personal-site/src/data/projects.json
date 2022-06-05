@@ -2,23 +2,23 @@
     "projects": [
       {
         "name": "foodwithfriends",
-        "thumbnail": "fwf.jpeg",
-        "description": "fwf description",
-        "tech": ["React", "Node", "Express"],
+        "thumbnail": "fwf.png",
+        "description": "Food app that aims to make decision-making for where to eat with friends easy.",
+        "tech": ["react", "node.js", "express", "mongoDB"],
         "url": "food-with-friends"
       },
       {
         "name": "flixbox",
-        "thumbnail": "fwf.jpeg",
-        "description": "flixbox description",
-        "tech": ["React", "Node", "Express"],
+        "thumbnail": "flixbox.png",
+        "description": "Movie app that allows you and your family or friends to relax and enjoy a movie instantly.",
+        "tech": ["handlebars", "node.js", "express","mongoDB"],
         "url": "flix-box"
       },
       {
         "name": "UTrend",
-        "thumbnail": "fwf.jpeg",
-        "description": "Utrend description",
-        "tech": ["React", "Node", "Express"],
+        "thumbnail": "utrend.png",
+        "description": "Fashion + Beauty app that enables users to generate outfits with their own clothes and share them with others.",
+        "tech": ["swift","firebase"],
         "url": "utrend"
       }
     ]

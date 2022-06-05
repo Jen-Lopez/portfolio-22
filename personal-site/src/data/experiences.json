@@ -8,23 +8,18 @@
             "location": "New York, NY",
             "start": "Feb 2022",
             "end": "Present",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "achievements": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
-            ]
+            "description": "...",
+            "achievements": []
           },
           {
             "title": "Software Engineer Intern",
             "location": "Remote",
             "start": "June 2021",
             "end": "Aug 2021",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Part of the Global Infrastructure Developer Experience (GIDX) team which is responsible for setting and improving developer experience (DX) journeys for infrastructure products and services.",
             "achievements": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+              "Explored Infrastructure as code (IaC) solutions to determine the feasibility of creating recipes that automates deployment for developers.",
+              "Developed custom terraform and crossplane providers using Go to serve as proof-of-concepts, projected to reduce deployment time by at least 90%."
             ]
           }
         ],
@@ -39,11 +34,11 @@
             "location": "Remote",
             "start": "Jan 2021",
             "end": "April 2021",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Part of the Signal team which is responsible for Alert Grouping and Intelligent Triage products that helps responders better triage incidents for faster resolutions.",
             "achievements": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+              "Built terraform modules that provisioned AWS resources for several microservices across EU data centers.",
+              "Enhanced team visibility on API usage and bugs by increasing logging and metrics monitoring via Datadog and Sumo logic.",
+              "Received honorable HackWeek mention from company executives on docDuty, an initiative meant to centralize engineering documentation to increase developer productivity."
             ]
           }
         ],
@@ -54,15 +49,14 @@
         "company": "New York University",
         "positions": [
           {
-            "title": "Web Design Tutor",
+            "title": "Web Design Tutor + Tutor Administrator",
             "location": "New York, NY",
             "start": "Oct 2019",
             "end": "Dec 2021",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Provide tutoring for the Introduction to Web Design and Computer Principles course (CSCI-UA 4)",
             "achievements": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+              "Help students master design principles and reinforce their understanding on HTML, CSS, and JS.",
+              "Provide oversight of remote tutoring and manage scheduling issues throughout the semester."
             ]
           }
         ],
@@ -77,11 +71,11 @@
             "location": "New York, NY",
             "start": "July 2018",
             "end": "Aug 2018",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Instructor & Mentor for GWC students at MetLife",
             "achievements": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-              "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-              "Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse"
+              "Led a classroom of 20 high school girls with an interest in Computer Science by providing instruction in Scratch, Python, Web Development (HTML, CSS, JS), and Robotics (Arduino).",
+              "Assisted students in their Final projects, which promotes awareness to important social issues.",
+              "Helped create a positive and inclusive sisterhood in hopes of closing the gender gap in technology."
             ]
           }
         ],
