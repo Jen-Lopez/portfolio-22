@@ -4,9 +4,9 @@ import projectDetailsData from '../data/project-details.json';
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-import GH from '../media/github.svg'
-import Web from '../media/link.png'
-import Video from '../media/video.png'
+import GH from '../media/icons/github.svg'
+import Web from '../media/icons/link.png'
+import Video from '../media/icons/video.png'
 
 function ProjectDetails(props) {
     const navigate = useNavigate();

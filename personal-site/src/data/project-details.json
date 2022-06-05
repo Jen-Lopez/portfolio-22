@@ -2,7 +2,7 @@
     "fwf": {
       "name": "foodwithfriends",
       "lead": "Find great food nearby with your friends",
-      "poster": "fwf.jpeg",
+      "poster": "fwf.png",
       "roles":"Full Stack Engineer, UI/UX Design",
       "team":"Yoon K., Thomas T., Sri K., Priya C., Tanya S.",
       "skills":["react", "node.js", "express", "mongoDB"],
@@ -18,7 +18,7 @@
     "flixbox": {
       "name": "flixbox",
       "lead": "Make finding a movie everyone will watch seamless",
-      "poster": "fwf.jpeg",
+      "poster": "flixbox.png",
       "roles":"Full Stack Engineer, UI/UX Design",
       "team":"n/a",
       "skills":["handlebars", "node.js", "express","mongoDB"],
@@ -31,7 +31,7 @@
     "utrend": {
       "name": "UTrend",
       "lead": "Realize the potential in your closet",
-      "poster": "fwf.jpeg",
+      "poster": "utrend.png",
       "roles":"Software Engineer, UI/UX Design",
       "team":"Ashley S., Sam G.",
       "skills":["swift","firebase"],
