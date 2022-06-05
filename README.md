@@ -1,2 +1,5 @@
-# portfolio-22
-Site Portfolio '22
+# Portfolio
+
+New & Revamped portfolio site :)
+
+##### Technologies: React, React Bootstrap, SCSS
