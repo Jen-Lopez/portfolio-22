@@ -1,6 +1,7 @@
 import './Projects.scss';
 import projectData from '../data/projects.json';
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Row, Col, Card } from 'react-bootstrap';
 
 export default function Projects() {
@@ -11,7 +12,7 @@ export default function Projects() {
       <Row xs={1} md={2} className="g-4">
         {projects.map((proj, i) => (
           <Col key={i}>
-            <a className='project-url' href={`work/${proj.url}`}>
+            <Link className="project-url"to={`${proj.url}`}>
               <Card className='project'>
                 <Card.Img className='project-img' variant="top" src={require(`../media/projects/${proj.thumbnail}`)}/>
                 <Card.Body>
@@ -26,7 +27,7 @@ export default function Projects() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </a>
+            </Link>
           </Col>
         ))}
       </Row>
