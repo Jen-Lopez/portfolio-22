@@ -8,7 +8,7 @@
       "skills":["react", "node.js", "express", "mongoDB"],
       "timeframe":"Sep 2021 - Dec 2021",
       "links":["github.com/software-assignments-fall2021/project-setup-foodwithfriends", "foodwithfriends.tech", ""],
-      "overview":["Are you going out to eat with friends anytime soon? These friendly gatherings usually go one of two ways: a restaurant is agreed upon fairly quickly OR you spend 30+ minutes choosing what to eat in the first place - not including the actual restaurant you are going to.",
+      "overview":["Are you going out to eat with friends anytime soon? These friendly gatherings usually go one of two ways: a restaurant is agreed upon fairly quickly or you spend 30+ minutes choosing what to eat in the first place - not including the actual restaurant you are going to.",
       "foodwithfriends is a web application that aims to make decision-making for where to eat ~easy~. Hosts can invite their entourage to a virtual room where each individual can choose a cuisine they prefer (e.g. Italian), vote on it, and go on to choose a restaurant together in a desired location.",
       "Our goal is to help groups of people choose a dining spot so that more time is spent on being together than deciding on where and what to eat."],
       "dev":["We developed foodwithfriends using the MERN stack - React on the frontend; MongoDB, Express, and Node.js on the backend. Additionally, to make the UI clean + responsive, we utilized React Bootstrap.",
@@ -24,7 +24,7 @@
       "skills":["handlebars", "node.js", "express","mongoDB"],
       "timeframe":"Sep 2021 - Dec 2021",
       "links":["", "flix-box.herokuapp.com"],
-      "overview":["Movie Nights with family and friends can go one of two ways: you settle on a movie fairly quick (which rarely happens) OR you spend what seems like an eternity choosing a movie to satisfy all.",
+      "overview":["Movie Nights with family and friends can go one of two ways: you settle on a movie fairly quick (which rarely happens) or you spend what seems like an eternity choosing a movie to satisfy all.",
       "With flixbox, instead of wasting time deciding on a movie, you can enjoy a movie with family + friends instantly. You can choose to vote on a movie based on a specific genre or on what's popular. In the end, you'll have an opportunity to rank your favorites and hope that everyone else agrees :)"],
       "dev": ["flixbox on the backend is built with Node.js, Express, and MongoDB. On the frontend, the app is rendered using Handlebars, HTML/CSS, and is supported by Bootstrap for responsive design. Additionally, the app is integrated with TMDB's Movies API to provide users with movie options."]
     },
