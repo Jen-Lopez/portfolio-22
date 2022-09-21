@@ -7,7 +7,7 @@ export default function Gallery() {
         <div className='photo-gallery'> 
             {(()=> {
                     let imgs = [];
-                    for (let i = 1; i <= 6; i++) {
+                    for (let i = 1; i < 8; i++) {
                         imgs.push(
                             <div className='pics' key={i}>
                                 <img src={require(`../media/about/about-${i}.png`)}/>
