@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.36483efb.css",
-    "main.js": "/static/js/main.8a3c148b.js",
+    "main.js": "/static/js/main.81ecb1e2.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/about-2.png": "/static/media/about-2.471db2618379122a40e8.png",
     "static/media/about-3.png": "/static/media/about-3.a59212f76a7e3dfc61e9.png",
+    "static/media/resume.pdf": "/static/media/resume.cf2dd85604bd400b70fd.pdf",
     "static/media/about-6.png": "/static/media/about-6.b8162b7914f8f0d07981.png",
     "static/media/about-1.png": "/static/media/about-1.68281e076488be50ee41.png",
     "static/media/profile.png": "/static/media/profile.95fc944f02a357e442f1.png",
     "static/media/about-4.png": "/static/media/about-4.31f5f3ea05b4d3b54be8.png",
     "static/media/about-5.png": "/static/media/about-5.4216da8b3f0bb8d550d8.png",
-    "static/media/resume.pdf": "/static/media/resume.0465ef4f1e3fbb007f32.pdf",
     "static/media/flixbox.png": "/static/media/flixbox.03c903568f4801d73a1c.png",
     "static/media/fwf.png": "/static/media/fwf.49219d03b28ed2e95c41.png",
     "static/media/utrend.png": "/static/media/utrend.3fd5220e79467df12ee5.png",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.478c1e8b040319b35b00286aa60f7296.svg",
     "main.36483efb.css.map": "/static/css/main.36483efb.css.map",
-    "main.8a3c148b.js.map": "/static/js/main.8a3c148b.js.map",
+    "main.81ecb1e2.js.map": "/static/js/main.81ecb1e2.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36483efb.css",
-    "static/js/main.8a3c148b.js"
+    "static/js/main.81ecb1e2.js"
   ]
 }
