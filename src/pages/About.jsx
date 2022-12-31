@@ -29,9 +29,9 @@ export default function About() {
               <div className='spare-time'>
                 <h3 className='section-heading'>In my spare time, catch me...</h3>
                 <ul>
-                  <li> swimming &#127754; </li>
-                  <li> rewatching my favorite shows</li>
-                  <li> exploring cities with my doge &#10024; </li>
+                  <li> swimming &#128037; </li>
+                  <li> rewatching my favorite shows &#128250;</li>
+                  <li> exploring cities with my doge &#128062; </li>
                 </ul>
               </div>
             </Col>
