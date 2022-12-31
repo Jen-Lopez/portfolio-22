@@ -1,5 +1,5 @@
 import './About.scss';
-import PP from '../media/about/profile.png'
+import PP from '../media/profile.png'
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Gallery from '../component/Gallery'
@@ -14,24 +14,24 @@ export default function About() {
             <Col md={7} className='info'>
               <div>
                 <p>
-                Hey there! I'm Jen, a Software Engineer based in <span className='highlight'>NYC</span>&#x26A1; I'm a recent graduate from New York University, 
+                Hey there! I'm Jen, a Software Engineer based in <span className='highlight'>NYC</span>&#x26A1; I'm a graduate of New York University, 
                 where I received my B.A. in Computer Science and minors in Psychology and Web Applications.
                 </p>
                 <p>
-                I'm passionate about <span className='highlight'>uplifting</span> underrepresented communities in tech through CS Education. With diverse perspectives, 
-                we have greater opportunities to build <span className='highlight'>impactful products</span> that reach more people.
+                I am passionate about empowering underrepresented communities in tech through  <span className='highlight'>CS education</span>. 
+                By fostering diversity in the field, we can create more meaningful and widespread impact that truly serve and benefit all users.
                 </p>
                 <p>
-                I've worked with a wide variety of frontend, backend, &amp; mobile technologies, primarily specializing in <span className='highlight'> full-stack </span>
-                development.
+                I have experience in both front-end and back-end technologies, allowing me to design and build web applications from <span className='highlight'>start to finish</span>. 
+                Currently, I am expanding my skills to include mobile development, particularly for iOS, and am open to exploring related opportunities.
                 </p>
               </div>
               <div className='spare-time'>
                 <h3 className='section-heading'>In my spare time, catch me...</h3>
                 <ul>
                   <li> swimming &#127754; </li>
-                  <li> reading (...or atleast trying to) </li>
-                  <li> exploring with my doge &#10024; </li>
+                  <li> rewatching my favorite shows</li>
+                  <li> exploring cities with my doge &#10024; </li>
                 </ul>
               </div>
             </Col>
