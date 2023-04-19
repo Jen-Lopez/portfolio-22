@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.def4fdce.css",
-    "main.js": "/static/js/main.21e0261e.js",
+    "main.js": "/static/js/main.cf10c545.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/about-8.png": "/static/media/about-8.7c0e423c5138e7b3595a.png",
     "static/media/about-7.png": "/static/media/about-7.370779d09a4759389db8.png",
@@ -16,17 +16,17 @@
     "static/media/fwf.png": "/static/media/fwf.49219d03b28ed2e95c41.png",
     "static/media/utrend.png": "/static/media/utrend.3fd5220e79467df12ee5.png",
     "static/media/about-5.png": "/static/media/about-5.08bb1177ad042c10af54.png",
-    "static/media/resume.pdf": "/static/media/resume.9a6d2d5430c911b564f5.pdf",
+    "static/media/resume.pdf": "/static/media/resume.d86ac7024de69b5ffd7e.pdf",
     "static/media/amex.png": "/static/media/amex.a1d716b0dbd4849af610.png",
     "static/media/github.svg": "/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.478c1e8b040319b35b00286aa60f7296.svg",
     "main.def4fdce.css.map": "/static/css/main.def4fdce.css.map",
-    "main.21e0261e.js.map": "/static/js/main.21e0261e.js.map",
+    "main.cf10c545.js.map": "/static/js/main.cf10c545.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.def4fdce.css",
-    "static/js/main.21e0261e.js"
+    "static/js/main.cf10c545.js"
   ]
 }
