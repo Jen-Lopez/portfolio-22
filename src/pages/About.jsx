@@ -23,15 +23,14 @@ export default function About() {
                 </p>
                 <p>
                 I have experience in both front-end and back-end technologies, allowing me to design and build web applications from <span className='highlight'>start to finish</span>. 
-                Currently, I am expanding my skills to include mobile development, particularly for iOS, and am open to exploring related opportunities.
                 </p>
               </div>
               <div className='spare-time'>
                 <h3 className='section-heading'>In my spare time, catch me...</h3>
                 <ul>
-                  <li> swimming &#128037; </li>
+                  <li> at concerts &#127925;</li>
                   <li> rewatching my favorite shows &#128250;</li>
-                  <li> exploring cities with my doge &#128062; </li>
+                  <li> exploring with my little family & our dogs &#128062; </li>
                 </ul>
               </div>
             </Col>
